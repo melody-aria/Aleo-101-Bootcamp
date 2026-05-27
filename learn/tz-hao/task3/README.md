@@ -18,7 +18,7 @@ Candidates create a private resume record with skill flags and years of experien
 app/                                      Next.js app routes and global styles
 components/                               Wallet provider and PrivateResume UI
 lib/                                      Shared constants and verification helpers
-programs/privateresume_mvp_20260527/      Leo program source and compiled output
+programs/privateresume_mvp_20260527/      Leo program source
 ```
 
 ## Leo Program
@@ -40,14 +40,8 @@ record Resume {
 }
 ```
 
-The compiled Aleo output in `programs/privateresume_mvp_20260527/build/main.aleo` shows the fields as private:
+After running `leo build`, Leo compiles the `Resume` record fields as private record data.
 
-```aleo
-owner as address.private;
-solidity as boolean.private;
-react as boolean.private;
-years as u8.private;
-```
 
 ## Run The Frontend
 

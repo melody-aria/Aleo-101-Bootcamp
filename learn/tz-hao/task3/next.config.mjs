@@ -9,8 +9,7 @@ const nextConfig = {
     "@demox-labs/aleo-wallet-adapter-base",
     "@demox-labs/aleo-wallet-adapter-react",
     "@demox-labs/aleo-wallet-adapter-reactui",
-    "aleo-adapters",
-    "@provablehq/sdk"
+    "aleo-adapters"
   ],
   turbopack: {
     root: projectRoot
